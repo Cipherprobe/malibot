@@ -1,6 +1,8 @@
 # malibot
 Malibot is a program developed by Cipherprobe in discord.py.
 
+![malibot](https://user-images.githubusercontent.com/74273676/102706262-2ff9aa80-4245-11eb-9235-4fe81fb60d88.jpg)
+
 In order to avoid improper usage of this program, you must carefully follow instructions listed here.
 
 # Requirements
@@ -11,3 +13,5 @@ In order to avoid improper usage of this program, you must carefully follow inst
 # 🚀 Preparing 
 1. Go to Heroku and create a new account (if you don't already have one): https://www.heroku.com/
 2. Go back to Github and create a new account (if you don't already have one)
+
+# 
