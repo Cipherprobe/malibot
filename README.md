@@ -37,3 +37,5 @@ In order to avoid improper usage of this program, you must carefully follow inst
 # ‼️ Disclaimer
 Cipherprobe (me) is not responsible for any actions done by you. Use this program at your own risk. I cannot be held responsible for anything.
 
+# License
+If you use my program in a YouTube video or is using my program for a presentation, please credit me. Just say something like 'Cipherprobe's program, find him on Github' and that would very much be appreciated. Also read LICENSE.md on this repository.
