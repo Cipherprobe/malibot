@@ -1,4 +1,4 @@
-# 🤖 malibot
+# 🤖 Malibot
 Malibot is a program developed by Cipherprobe in discord.py.
 
 ![malibot](https://user-images.githubusercontent.com/74273676/102706262-2ff9aa80-4245-11eb-9235-4fe81fb60d88.jpg)
