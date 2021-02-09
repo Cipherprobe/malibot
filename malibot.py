@@ -5,7 +5,7 @@
 import discord
 from discord.ext import commands
 import time
-
+import asyncio
 
 # Client
 bot = commands.Bot(command_prefix='Insert your custom prefix here')
@@ -20,7 +20,7 @@ async def everyone(context):
     await context.message.delete()
     while True:  # WARNING: This loop may crash the bot. In order to avoid crashing, the time delay is recommended.
         await context.send('@everyone')
-        time.sleep(3) # Here, you can change the number '5' to the amount of seconds of your choice. Based on what you put, there will be a delay of that many seconds between each @everyone ping
+        asyncio.sleep(3) # Here, you can change the number '5' to the amount of seconds of your choice. Based on what you put, there will be a delay of that many seconds between each @everyone ping
 
 # Spam channels
 @bot.command(brief='', description='')
@@ -45,7 +45,7 @@ async def ban(context, *, reason=None):
 async def spam(context):
     while True: # WARNING: This loop may crash the bot. In order to avoid crashing, the time delay is recommended.
         await context.send('@everyone You are an idiot')
-        time.sleep(3) # You can change the number '5' to the amount of seconds you want the messages to be delayed.
+        asyncio.sleep(3) # You can change the number '5' to the amount of seconds you want the messages to be delayed.
 
 # Change every member's nickname
 @bot.command(brief='', description='')
